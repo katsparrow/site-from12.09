@@ -1,0 +1,57 @@
+body  {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Segoe UI;
+}
+
+.header {
+	background-image: url('wave.png');
+	height: 701px;
+}
+
+.header__in {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.header__nav {
+	padding: 20px 0 10px;
+	/*position: relative;*/
+}
+
+.header__logo {
+	font-size: 24px;
+	font-weight: 700;
+	/*position: absolute;*/
+	/*left: -45px;*/
+	display: inline-block;
+}
+
+.header__menu {
+	display: inline-block;
+}
+
+.header__menu__item {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 -3px;
+}
+
+.header__menu__item a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	padding: 3px 8px;
+}
+
+.header__menu__item a:hover {
+	background-color: #00b0ff;
+	color: #fff;
+}
+
+.header__links {
+	display: inline-block;
+}

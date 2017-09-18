@@ -3,12 +3,23 @@ body  {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font-family: Segoe UI;
+	font-family: Regular;
+	box-sizing: border-box;
+}
+
+h1, h3, div, p {
+margin: 0;
+padding: 0;
 }
 
 .header {
 	background-image: url('wave.png');
-	height: 701px;
+	height: 435px;
+	display: block;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
 }
 
 .header__in {
@@ -25,18 +36,20 @@ body  {
 	font-size: 24px;
 	font-weight: 700;
 	/*position: absolute;*/
-	/*left: -45px;*/
+	margin-left: -45px;
 	display: inline-block;
 }
 
 .header__menu {
 	display: inline-block;
+
 }
 
 .header__menu__item {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 -3px;
+
 }
 
 .header__menu__item a {
@@ -54,4 +67,66 @@ body  {
 
 .header__links {
 	display: inline-block;
+	margin-left: 230px;
+}
+.icon {
+	display: inline-block;
+	margin: 5px;
+	height: 36px;
+	width: 36px;
+}
+
+.icon__fb {
+	background-image: url('fb.png');
+	
+}
+
+.icon__inst {
+	background-image: url('inst.png');
+	
+}
+
+.icon__email {
+	background-image: url('email.png');
+
+}
+
+.header__title {
+	text-align: center;
+	font-style: italic;
+	margin: 135px auto;
+}
+
+.header__title h1 {
+	color: black;
+}
+.header__title h3 {
+	color: white;
+}
+
+.header__content {
+	background-image: url('bord.png');
+	background-size: cover;
+	box-shadow: 0 0 20px gray;
+	background-repeat: no-repeat;
+	height: 375px;
+	width: 645px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header__content__main {
+	position: absolute;
+	right: 0;
+	width: 312px;
+}
+
+.header__content__in {
+	padding: 30px;
+	display: block;
+}
+
+.header__content__title {
+	font-weight: bold;
+	font-size: 16px;
 }
